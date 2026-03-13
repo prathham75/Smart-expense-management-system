@@ -1,0 +1,249 @@
+📊 Smart Expense Manager
+
+A full-stack Smart Expense Management System built using Django (Backend) and HTML, CSS, JavaScript (Frontend) with a modern dark-themed financial dashboard.
+
+The system allows users to track expenses, manage budgets, analyze spending patterns, and predict future expenses with professional UI and analytics.
+
+🚀 Features
+🔐 Authentication
+
+User Registration
+
+User Login / Logout
+
+Secure password handling using Django Auth
+
+💰 Expense Management
+
+Add, Edit, Delete Expenses
+
+Categorize expenses
+
+View all expenses with filters
+
+🗂️ Category Management
+
+Create custom expense categories
+
+Category-wise expense breakdown
+
+📊 Dashboard (Financial-Style)
+
+Monthly expense trend (last 6 months)
+
+Category-wise expense breakdown (pie chart)
+
+KPI strip:
+
+Today’s Spend
+
+Monthly Total
+
+Average Daily Spend
+
+Highest Expense
+
+Budget alerts (80% warning & 100% exceeded)
+
+Remaining budget calculation
+
+Dark-themed, professional UI
+
+📈 Smart Prediction
+
+Predict next month’s expense based on historical data
+
+Visual prediction trend using Chart.js
+
+📤 Reports Export
+
+Export expenses to Excel (.xlsx)
+
+Export expenses to PDF (.pdf)
+
+Filter-aware exports
+
+🎨 UI & UX
+
+Fully dark-themed dashboard
+
+Responsive layout
+
+Card-based financial design
+
+Clean login & registration pages
+
+🛠️ Tech Stack
+Backend
+
+Python 3.10+
+
+Django 4+
+
+Frontend
+
+HTML5
+
+CSS3 (Custom Dark Theme)
+
+JavaScript
+
+Chart.js (Charts & Analytics)
+
+Database
+
+SQLite (default, can be replaced with PostgreSQL/MySQL)
+
+📦 Project Structure
+Smart-expense-management/
+│
+├── expense_proj/
+│   ├── expense_proj/
+│   │   ├── settings.py
+│   │   ├── urls.py
+│   │   └── wsgi.py
+│   │
+│   ├── expenses/
+│   │   ├── migrations/
+│   │   ├── templates/
+│   │   │   ├── expenses/
+│   │   │   └── registration/
+│   │   ├── static/
+│   │   │   └── css/style.css
+│   │   ├── models.py
+│   │   ├── views.py
+│   │   └── urls.py
+│   │
+│   ├── manage.py
+│
+├── requirements.txt
+├── README.md
+
+📋 Requirements
+
+Python 3.10 or higher
+
+pip
+
+Virtual Environment (recommended)
+
+📦 Dependencies
+
+All required packages are listed in requirements.txt.
+
+Django>=4.2,<6.0
+openpyxl>=3.1.2
+reportlab>=4.0.4
+pytz>=2023.3
+sqlparse>=0.4.4
+tzdata>=2023.3
+
+⚙️ Installation & Setup (Run on Any System)
+1️⃣ Clone or Copy Project
+
+Copy the project folder to the target system.
+
+cd Smart-expense-management
+
+2️⃣ Create Virtual Environment
+python -m venv venv
+
+
+Activate it:
+
+Windows
+
+venv\Scripts\activate
+
+
+Mac/Linux
+
+source venv/bin/activate
+
+3️⃣ Install Dependencies
+pip install -r requirements.txt
+
+4️⃣ Database Setup
+cd expense_proj
+python manage.py makemigrations
+python manage.py migrate
+
+5️⃣ Create Superuser (Optional)
+python manage.py createsuperuser
+
+
+Admin panel:
+
+http://127.0.0.1:8000/admin/
+
+6️⃣ Run the Server
+python manage.py runserver
+
+
+Open browser:
+
+http://127.0.0.1:8000/
+
+🧪 Testing Checklist
+
+ User registration works
+
+ Login & logout works
+
+ Expenses CRUD works
+
+ Categories load correctly
+
+ Dashboard loads without errors
+
+ Charts render correctly
+
+ PDF/Excel export works
+
+ Budget alerts trigger correctly
+
+📌 Future Enhancements
+
+Income tracking
+
+Monthly comparison reports
+
+Email notifications
+
+AI-based expense insights
+
+PostgreSQL / MySQL support
+
+Deployment to cloud (Render / Railway / AWS)
+
+Docker support
+
+🎓 Learning Outcomes
+
+Django authentication & ORM
+
+Real-world dashboard design
+
+Financial analytics concepts
+
+Chart.js integration
+
+Clean project structuring
+
+Exporting reports (PDF & Excel)
+
+Debugging & deployment readiness
+
+🧠 Interview Explanation (Short)
+
+“Smart Expense Manager is a Django-based financial tracking application with secure authentication, budgeting, analytics dashboard, expense prediction, and exportable reports. I focused on clean architecture, professional UI, and real-world financial features.”
+
+👨‍💻 Author
+
+Pratham Kumbhare
+Python Full-Stack Developer
+Project: Smart Expense Manager
+
+📄 License
+
+This project is for educational and portfolio purposes.
